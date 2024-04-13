@@ -1,0 +1,6 @@
+---
+locfile_path: "/locfile"
+locfile_owner: "jil"
+locfile_group: "root"
+locfile_permissions: "0444"
+emptyfile_path: "/home/emptyfile"

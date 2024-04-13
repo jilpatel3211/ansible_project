@@ -1,0 +1,3 @@
+# roles/user-n01619534/handlers/main.yml
+- name: reload ssh
+  ansible.builtin.command: systemctl restart sshd
