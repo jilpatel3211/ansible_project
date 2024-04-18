@@ -1,6 +1,7 @@
 - name: Run roles on all Linux inventory nodes
-  hosts: all
+  hosts: linux
   become: yes
+  become_method: sudo
   gather_facts: yes
   vars:
     ansible_managed: "Managed by Ansible"
